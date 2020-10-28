@@ -1,0 +1,30 @@
+[
+  {
+    "quizNumber": "1",
+    "question": "What does meow drinks?",
+    "option1": "Soup",
+    "option2": "Milk",
+    "option3": "Water",
+    "option4": "",
+    "answer": "Milk"
+  },
+  {
+    "quizNumber": "2",
+    "question": "Who does keow keow?",
+    "option1": "Monkey",
+    "option2": "Catty",
+    "option3": "Kitty",
+    "option4": "Elephant",
+    "answer": "Kitty"
+  },
+  {
+    "quizNumber": "3",
+    "image": "",
+    "question": "Who watches cat videos everyday?",
+    "option1": "Kitten",
+    "option2": "Meow",
+    "option3": "Cat",
+    "option4": "Catty",
+    "answer": "Catty"
+  }
+]
