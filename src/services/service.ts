@@ -7,13 +7,13 @@ import { Observable } from 'rxjs/internal/Observable';
 
 @Injectable()
 export class Service{
-    private url :string = '/localhost:3000/';
+    private url :string = 'http://localhost:3000';
 
-    constructor(private http:HttpClient){
+    constructor(private http:HttpClient){}
 
         getValues():Observable<Questions[]>{
             return this.http.get<Questions[]>(this.url);
         }
 
-    }
+    
 }

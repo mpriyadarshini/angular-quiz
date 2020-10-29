@@ -14,5 +14,8 @@ export class AppComponent {
   ngOnInit(){
     this.service.getValues()
       .subscribe(data => this.values = data);
+      console.log(this.values);
   }
+  
+  
 }
