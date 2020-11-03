@@ -1,3 +1,19 @@
-<ul *ngFor = "let value of values">
-    <li></li>
-</ul>
+<div class="card" style="width: 18rem">
+  
+    <div class="card-header">{{ values[i].question }}</div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item list-group-item-action" (click)="onselect(values[i].option1)">{{ values[i].option1 }}</li>
+      <li class="list-group-item list-group-item-action" (click)="onselect(values[i].option2)">{{ values[i].option2 }}</li>
+      <li class="list-group-item list-group-item-action" (click)="onselect(values[i].option3)">{{ values[i].option3 }}</li>
+      <li class="list-group-item list-group-item-action" (click)="onselect(values[i].option4)">{{ values[i].option4 }}</li>
+    </ul>
+    
+    
+</div>
+{{result}}
+
+
+
+
+
+
